@@ -16,7 +16,6 @@ Se deberá partir de la "Práctica 5. Wordlet" y mejorar la funcionalidad para q
         - Convertir los caracteres con acentos a caracteres sin ellos. Por ejemplo "acabé" se transformará en "acabe".
     + **worldlet.py**: ejecutará el juego en sí. Lo primero que debe hacer el programa será validar que existe el fichero de palabras válidas "palabras_worldlet.txt". Si no fuese así, porque no se ha ejecutado el programa anterior de transformación de palabras, se mostrará el mensaje "Fichero de palabras no encontrado, se utilizará una palabra fija". Esa palabra fija será "ROSAL". Además, si el programa recibe el argumento 1 por consola, el juego mostrará la palabra a adivinar para facilitar la tareas de testing. Si no recibe nada o cualquier otro valor se ejecutará normalmente.
         - "python worldlet.py 1"
-    + **test.py**: realizará las pruebas unitarias sobre las funciones realizadas.
 - Adaptar el juego para que en lugar de trabajar con la estructura de cadenas de caracteres que teníamos, trabaje con una matriz de 5 x 5.
 - Todas las funciones a realizar deberán estar tipificadas.
 
