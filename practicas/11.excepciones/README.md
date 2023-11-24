@@ -1,4 +1,4 @@
-# Práctica 10. Excepciones
+# Práctica 11. Excepciones
 
 ## Objetivo
 Esta práctica pretende alcanzar los siguientes resultados de aprendizaje:
