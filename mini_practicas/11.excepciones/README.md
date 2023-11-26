@@ -1,4 +1,4 @@
-# Mini-práctica 10. Incluir gestión de excepciones en la Calculadora (Tema 10)
+# Mini-práctica 11. Incluir gestión de excepciones en la Calculadora
 ## Enunciado
 A partir de la práctica 9 de la calculadora (código que se suministra) incluid gestión de excepciones en las siguientes partes del código para que no lance ningún error de ejecución el programa. 
 
