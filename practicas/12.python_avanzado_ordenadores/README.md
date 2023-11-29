@@ -70,10 +70,19 @@ De forma obligatoria, el programa principal deberá trabajar con las siguientes 
 
 Los errores no serán ni descriptivos ni específicos porque la entrada que esté mal, se eliminará y no habrá ninguna posibilidad de recuperación. Se dice que este tipo de procesos en los que no existe interacción con el usuario son **procesos batch**.
 
+
+Versión con objetos:
 ```python
 def limpiar_datos(ordenador:str) -> Ordenador
     raise Exception
 ```
+
+Versión sin objetos:
+```python
+def limpiar_datos(ordenador:str) -> tuple
+    raise Exception
+```
+
 La función limpiar_datos llamará a su vez a las siguientes funciones:
 
 ```python
