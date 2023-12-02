@@ -42,9 +42,10 @@ Deberemos realizar una serie de funciones que se encargarán de limpiar o normal
     + Ejemplo:
         - DEL posee 4 letras de DELL, 0 de HP y 2 de Lenovo, por lo que la normalizaremos/corregiremos por DELL.
         - H posee 0 letras de DELL, 1 de HP y 0 de Lenovo, por lo que la normalizaremos/corregiremos por HP.
-- CPU: todos los procesadores deberán tener 2 letras, empezarán por una "i" y terminarán con un número. Por ejemplo: i3, i5, i7, ...
+- CPU: todos los procesadores deberán tener 2 letras, empezarán por una "i" y terminarán con un número siempre impar superior o igual a 3. Por ejemplo: i3, i5, i7, hasta i9. Solo se admite un número de procesador. Si se encuentra un número par, se convertirá al número inferior:
     + Ejemplo:
         - i5 será i5.
+        - i4 será i3.
         - Intel i7 será i7.
         - Inteli5 será i5.
 - RAM: ahí hemos tenido suerte y todas las entradas son correctas y no debemos limpiar este dato.
