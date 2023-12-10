@@ -1,4 +1,4 @@
-# Mini-práctica 11. Objetos
+# Mini-práctica 13. Objetos
 ## Enunciado
 
 Realizar un programa gestione las notas obtenidas por los alumnos en distintas asignaturas.
