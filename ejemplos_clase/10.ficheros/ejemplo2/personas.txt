@@ -1,0 +1,5 @@
+nombre, edad
+Ana, 18
+Luis, 22
+Maria, 32
+Jaime, 26
