@@ -21,15 +21,29 @@ Se deberá partir de la "Práctica 5. Wordlet" y mejorar la funcionalidad para q
 
 ## Ayuda
 
+- Comprobar la codificación de un fichero de texto:
+
+Si al abrir un fichero obtenemos este error es porque a codificación por defecto el ordenador es incompatible con la del fichero. Ver la mini-práctica.
+
+```
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 3030: character maps to <undefined>
+```
+
+Por ese motivo, deberemos utilizar la codificación exacta del fichero:
+
+```python
+with open("a.txt", "r", encoding = "utf-8") as fichero:
+```
+
 - Pasar argumentos a un programa Python:
 
 En consola: 
-```
+```python
 python wordlet.py 1
 ```
 
 En Python:
-```
+```python
 import sys
 
 argumentos = sys.argv
