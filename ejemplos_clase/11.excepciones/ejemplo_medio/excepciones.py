@@ -1,0 +1,3 @@
+class AsignaturaError(Exception):
+    pass
+
