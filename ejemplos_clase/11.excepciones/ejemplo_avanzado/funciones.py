@@ -18,7 +18,7 @@ def validar_exceptions(asignatura:str) -> str:
                             raise CodigoError()
                     else:
                         raise CursoError()
-                except ValueError:
+                except ValueError as error:
                     raise CodigoError()
             else:
                 raise DepartamentoError()
