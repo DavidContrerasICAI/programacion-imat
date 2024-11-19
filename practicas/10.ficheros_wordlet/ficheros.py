@@ -23,7 +23,7 @@ def leer_palabras() -> list:
 
 def leer_estadisticas() -> dict:
     estadisticas_dict = {}
-    if os.path.isfile("palabras_wordle.txt"):
+    if os.path.isfile(FICHERO_ESTADISTICAS):
         with open(FICHERO_ESTADISTICAS, "rb") as fichero:
             estadisticas_dict = pickle.load(fichero)
     else:

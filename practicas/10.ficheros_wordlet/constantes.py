@@ -2,12 +2,16 @@ FILAS_MAX = 5
 INTENTOS_MAX = FILAS_MAX
 NUMERO_LETRAS = 5
 
-FICHERO_PALABRAS = "palabras.txt"
-FICHERO_PALABRAS_WORDLET = "palabras_wordlet.txt"
-FICHERO_ESTADISTICAS = "estadisticas.obj"
+FICHERO_PALABRAS = "data/palabras.txt"
+FICHERO_PALABRAS_WORDLET = "data/palabras_wordlet.txt"
+FICHERO_ESTADISTICAS = "data/estadisticas.obj"
 
 NEGRO_FOREGROUND = "\033[1;30m"
 GRIS = "\033[1;47m"
 VERDE = "\033[1;42m"
 AMARILLO = "\033[1;43m"
 DEFECTO = "\033[0m"
+ROJO = "\033[0;41m"
+
+PALABRA_POR_DEFECTO = "ARBOL"
+MOSTRAR_PALABRA_OBJETIVO = "1"
