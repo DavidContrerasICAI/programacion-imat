@@ -28,7 +28,7 @@ for persona in personas:
     try:
         persona.cumpleanios()
     except EdadError as error:
-        print(error)s
+        print(error)
 
     if persona.nombre == "Ana":
         persona.edad += 1
