@@ -1,0 +1,2 @@
+class EdadError(Exception):
+    pass
