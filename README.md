@@ -11,4 +11,4 @@ Disfruta de la asignatura!
 3. [Ejercicios de refuerzo](refuerzo)
 4. [Retos](retos)
 5. [Mini prácticas](mini_practicas)
-6. [Proyecto final](_proyecto_final)
+6. [Proyecto final](practicas/_proyecto_final)
