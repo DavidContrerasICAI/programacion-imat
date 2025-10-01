@@ -12,6 +12,11 @@ while i < SERPIENTES:
     while j < velocidad:
         print(" ", end="")
         j += 1
+    if velocidad <= 10:
+        velocidad += 5
+    else:
+        velocidad -= 5
+    
     print(COLA, end = "")
     j = 0
     while j < SIZE:
@@ -19,5 +24,4 @@ while i < SERPIENTES:
         j += 1
     print(CABEZA, end = "")
     print()
-    velocidad += 5 + i
     i += 1
