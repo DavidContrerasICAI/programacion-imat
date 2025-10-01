@@ -17,7 +17,6 @@ while i < SERPIENTES:
     while j < SIZE:
         print(CUERPO, end = "")
         j += 1
-    print(CABEZA, end = "")
-    print()
-    velocidad += 5 + i
+    print(CABEZA)
+    velocidad = velocidad + 5 + i
     i += 1
