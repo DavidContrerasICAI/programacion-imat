@@ -82,8 +82,6 @@ while intentos < INTENTOS_MAX and contador_letras != 5:
         dibujo = DIBUJO_3
     elif intentos == 4:
         dibujo = DIBUJO_4
-    elif intentos == 5:
-        dibujo = DIBUJO_5
 
     print(f"{dibujo} {intentos}\n")
 
@@ -113,4 +111,5 @@ print()
 if contador_letras == 5:
     print("¡¡¡ GANASTE !!!")
 else:
+    print(f"{DIBUJO_5} {intentos}\n")
     print(f"¡¡¡ AHORCADO !!!\nPalabra a acertar: {PALABRA_OBJETIVO}")
