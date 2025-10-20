@@ -71,9 +71,9 @@ while intentos < INTENTOS_MAX and palabra != PALABRA_OBJETIVO:
                 contador_ok += 1
             else:
                 if letra in PALABRA_OBJETIVO:
-                    color = ROJO
-                else:
                     color = AMARILLO
+                else:
+                    color = ROJO
             # Imprime la palabra introducida con los aciertos o no
             print(f"{color} {letra} {DEFECTO} ", end = "")
             indice += 1
