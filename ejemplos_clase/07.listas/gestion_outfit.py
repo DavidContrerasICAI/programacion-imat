@@ -2,6 +2,7 @@
 ENUNCIADO
 
 Programa una aplicación de consola que gestione outfits de varias personas y calcule el coste total del outfit de una persona concreta.
+
 El programa pedirá primero cuántas personas se van a generar.
 
 Para cada persona:
@@ -17,8 +18,29 @@ El coste total del outfit de <Nombre> es <Total>€
 Requisitos:
 - Utilizar únicamente bucles while para todas las iteraciones (no se permite for).
 - Se asume que el nombre introducido al final existe entre las personas generadas.
-"""
 
+OUTPUT
+
+>python gestion_outfit.py
+Número personas: 3
+
+Número de prendas de IIII: 2
+Generada una Zapatos de 100€
+Generada una Bañador de 90€
+
+Número de prendas de JJJJ: 4
+Generada una Pantalón de 60€
+Generada una Falda de 60€
+Generada una Camiseta de 30€
+Generada una Pantalón de 100€
+
+Número de prendas de HHHH: 2
+Generada una Bañador de 30€
+Generada una Bañador de 50€
+
+Nombre de la persona a calcular el coste de su outfit: HHHH
+El coste total del outfit de HHHH es 80€
+"""
 
 import random
 
