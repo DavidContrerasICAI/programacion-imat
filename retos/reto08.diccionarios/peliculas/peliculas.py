@@ -15,8 +15,8 @@ print()
 """
 Listado de películas de un alumno y un género
 """
-#nombre = input("Alumno: ")
-#genero = input("Género: ")
+nombre = input("Alumno: ")
+genero = input("Género: ")
 
 nombre = "alumno1"
 genero = "acción"

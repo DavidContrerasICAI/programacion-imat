@@ -27,7 +27,7 @@ Implementa un programa en Python que:
    * Añada una nueva valoración para un alumno concreto en un género determinado (p. ej., insertar `("peli3", 6)` en el género `"acción"` de `"alumno1"`).
 
 2. **Consulta personalizada (favoritas por alumno y género)**
-   * Pide (o establece) un **nombre de alumno** y un **género** a buscar.
+   * Pedir por teclado un **nombre de alumno** y un **género** a buscar.
    * Si existen, muestre por pantalla `Pelis favoritas de <alumno>` y, dentro de ese género, **solo** las películas con valoración **strictamente mayor** que 5.
    * Representa la valoración con **estrellas** (`⭐`) tantas como indique la nota y capitaliza el nombre de la película.
 3. **Catálogo por géneros (sin duplicados)**
@@ -41,6 +41,8 @@ Implementa un programa en Python que:
 
 **OUTPUT**
 ```
+Alumno: alumno1
+Género: acción
 Pelis favoritas de alumno1 valoradas con más de un 5
   - Peli1 ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
   - Peli5 ⭐⭐⭐⭐⭐⭐
