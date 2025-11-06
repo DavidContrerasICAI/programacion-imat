@@ -1,5 +1,15 @@
+#import funciones
+# Con esta forma de importar, se deberá llamar así: 
+# funciones.crear_figuras_defecto(figuras)
+
 #import funciones as f
+# Con esta forma de importar, se deberá llamar así: 
+# f.crear_figuras_defecto(figuras)
+
 from funciones import *
+# Con esta forma de importar, se deberá llamar así: 
+# crear_figuras_defecto(figuras)
+
 import sys
 
 argumentos = sys.argv
