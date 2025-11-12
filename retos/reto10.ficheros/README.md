@@ -5,7 +5,7 @@ Crear un programa Python que almacene las películas que han visto los alumnos p
 Implementa un programa en Python que:
 
 1. **Creación de la estructura**
-    * Le del fichero `personas.txt` la siguiente información y alamcena en la estructura de datos que consideres con la información por defecto que se suministra:
+    * Le del fichero `personas.txt` la siguiente información y almacena en la estructura de datos que consideres con la información por defecto que se suministra:
 
 ```
 Nombre, Género, Película, Valoración
