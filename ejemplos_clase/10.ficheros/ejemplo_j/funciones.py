@@ -3,7 +3,7 @@ def crear_diccionario_reemplazos(tipo:str="fijo")->dict:
         dict_reemplazos = {"-": "", "+": "", "á":"a", "é":"e", "í": "i", "ó": "o", "ú": "u"}
     else:
         dict_reemplazos = {}
-        fichero = open("reemplazos.txt", "r", encoding="utf-8")
+        fichero = open("data/reemplazos.txt", "r", encoding="utf-8")
         for linea in fichero:
             caracteres = linea.strip().split(":")
             buscar, reemplazar = caracteres
@@ -14,7 +14,7 @@ def crear_diccionario_reemplazos(tipo:str="fijo")->dict:
 
 def crear_diccionario_ropa(dict_reemplazos:dict)->dict:
     dict_ropas = {}
-    fichero = open("ropa.csv", "r", encoding="utf-8") 
+    fichero = open("data/ropa.csv", "r", encoding="utf-8") 
     _ = fichero.readline()
     #linea_encabezado = fichero.readline()
     for linea in fichero:
