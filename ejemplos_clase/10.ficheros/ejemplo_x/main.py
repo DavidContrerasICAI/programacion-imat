@@ -4,5 +4,6 @@ for linea in fichero:
     linea = linea.strip()
     ropas.append(linea)
     print(linea)
+fichero.close()
 
 print(ropas)

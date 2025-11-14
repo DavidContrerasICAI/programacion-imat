@@ -10,6 +10,7 @@ def crear_diccionario_reemplazos(tipo:str="fijo")->dict:
             if len(caracteres) == 1:
                 reemplazar = ""
             dict_reemplazos[buscar] = reemplazar
+        fichero.close()
     return dict_reemplazos
 
 def crear_diccionario_ropa(dict_reemplazos:dict)->dict:
@@ -28,6 +29,7 @@ def crear_diccionario_ropa(dict_reemplazos:dict)->dict:
             for k, v in dict_reemplazos.items():
                 ropa = ropa.replace(k, v)
             dict_ropas[ropa] = (precio, temporada)
+    fichero.close()
     return dict_ropas
 
 def listar_ropa(dict_reemplazos:dict)->None:
