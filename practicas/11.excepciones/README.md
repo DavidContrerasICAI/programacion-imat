@@ -28,7 +28,7 @@ Valencia, Elena, 60G
 Barcelona, Andrés, 05F
 ```
 
-Al salir del programa se añadirán las personas a un fichero csv llamado `personas.csv` con la estructura: 
+Al salir del programa se **añadirán** las personas a un fichero csv llamado `personas.csv` con la estructura siguiente (no será necesario escribir el encabezado).
 
 ```
 ciudad, nombre, dni
