@@ -53,7 +53,7 @@ Desarrollar un programa que esté organizado en varios módulos (ficheros.py):
 - operaciones.py: funcionalidad de las distintas opciones a ejecutar en el programa.
 - excepciones.py: definición de las excepciones que contendrá el programa.
 
-La estructura del programa principal será la que se muestra, dándonos una idea de las excepciones que tenemos que crear. Los argumentos y valores que deba recibir/devolver cada función, los deberá personalizar el alumno en cada caso. Igualmente, las funciones se guardarán en elos módulos (`fichero.py`) correspondiente a elección del alumno. 
+La estructura del programa principal será la que se muestra, dándonos una idea de las excepciones que tenemos que crear. Los argumentos y valores que deba recibir/devolver cada función, los deberá personalizar el alumno en cada caso. Igualmente, las funciones se guardarán en los módulos (`fichero.py`) correspondiente a elección del alumno. 
 
 
 ```python
