@@ -1,0 +1,6 @@
+coches#potencia
+Ford Focus 1.0 EcoBoost#125
+Honda Civic 1.5 VTEC#182
+Hyundai i30 1.6 CRDi#13z
+Kia Ceed 1.0 T-GDi#120
+Dacia Duster 1.0 TCe#90
