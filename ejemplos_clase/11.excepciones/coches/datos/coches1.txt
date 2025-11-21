@@ -1,0 +1,6 @@
+coches#potencia
+Toyota Corolla 1.8#140
+Volkswagen Golf 2.0 TDI#150
+Seat Ibiza 1.0 TSI#95
+Renault Clio 1.3 TCe#130a
+Peugeot 308 1.5 BlueHDi#130
