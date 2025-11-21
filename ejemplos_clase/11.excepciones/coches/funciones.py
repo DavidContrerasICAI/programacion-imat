@@ -1,4 +1,5 @@
 from excepciones import PotenciaError
+from constantes import *
 
 def leer_coches()->dict:
     diccionario_coches = {}
@@ -46,10 +47,10 @@ def transformar_cv(cv_str:str)->int:
     Raise: 
         - PotenciaError
     """
-    if len(cv_str) < 4:
+    if len(cv_str) <= LONGITUD_MAX:
         try:
             cv = int(cv_str)
-            if cv > 100:
+            if cv >= POTENCIA_MINIMA:
                 return cv
             else:
                 raise PotenciaError("Potencia inferior a 100cv")
