@@ -42,10 +42,15 @@ El programa deberá presentar el siguiente menú:
 1.- Crear persona
 2.- Cargar personas por defecto de un fichero
 3.- Mostrar todas las personas
-4.- Mostrar personas de una ciudad
-5.- Dibujar histograma por ciudades
+4.- Mostrar personas de una ciudad en concreto
+5.- Dibujar histograma de todas las personas por ciudades
 6.- Salir y guardar en un fichero
 ```
+
+La operativa del programa será, por tanto, la siguiente:
+1. Se inicia el programa y se crean personas de forma manual (1) o se cargan por defecto del fichero (2).
+2. Se trabajará siempre en memoria, es decir, la creación (1 y 2) y consultas (3, 4 y 5) de las personas se realiza sobre estructuras de datos en memoria, no sobre los ficheros.
+3. Solo cuando se salga del programa (6) se añadirán las personas creadas en el fichero `personas.csv`.
 
 ### Estructura del programa
 Desarrollar un programa que esté organizado en varios módulos (ficheros.py):
@@ -53,7 +58,7 @@ Desarrollar un programa que esté organizado en varios módulos (ficheros.py):
 - operaciones.py: funcionalidad de las distintas opciones a ejecutar en el programa.
 - excepciones.py: definición de las excepciones que contendrá el programa.
 
-La estructura del programa principal será la que se muestra, dándonos una idea de las excepciones que tenemos que crear. Los argumentos y valores que deba recibir/devolver cada función, los deberá personalizar el alumno en cada caso. Igualmente, las funciones se guardarán en los módulos (`fichero.py`) correspondiente a elección del alumno. 
+La estructura del programa principal será la que se muestra, dándonos una idea de las excepciones que tenemos que crear. Los argumentos y valores que deba recibir/devolver cada función, los deberá personalizar el alumno en cada caso. Igualmente, las funciones se guardarán en los módulos (ficheros .py) correspondientes a elección del alumno (el alumno elegirá el mejor nombre). 
 
 
 ```python
@@ -96,6 +101,31 @@ if __name__ == "__main__":
 - El DNI tendrá dos números y una letra. La letra será el carácter equivalente al valor ASCII 65 + la suma de los dos dígitos anteriores. Por ejemplo, en el caso de 11, la letra será 65 + 1 + 1 = 67, valor ASCII de la letra C. Si no se corresponde con ese formato y valores se lanzará la excepción **DNIError**.
 
 ### Salida generada
+
+#### Opción 3.- Mostrar todas las personas
+```
+Madrid
+-------
+ ·  Laura - 11C
+ ·  Jorge - 50F
+ ·  Irene - 42G
+Barcelona
+-------
+ ·  Carlos - 07H
+ ·  Diego - 18J
+ ·  Andrés - 05F
+ ...
+ ```
+
+#### Opción 4.- Mostrar personas de una ciudad en concreto
+```
+Introduce ciudad: Madrid
+ ·  Laura - 11C
+ ·  Jorge - 50F
+ ·  Irene - 42G
+```
+
+#### Opción 5.- Dibujar histograma de todas las personas por ciudades
 
 Imagen que muestra la salida de la opción 5 y 3.
 
