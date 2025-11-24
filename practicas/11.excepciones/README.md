@@ -127,6 +127,18 @@ Introduce ciudad: Madrid
 
 #### Opción 5.- Dibujar histograma de todas las personas por ciudades
 
-Imagen que muestra la salida de la opción 5 y 3.
+![Output](salida.jpg)
 
-![Output](output.jpg)
+## Ayuda
+
+Código que permite generar un histograma/diagrama de barras:
+
+```python
+ys = [3, 5, 1]
+xs = ["A", "B", "C"]
+plt.title("Histograma de personas por ciudades")
+plt.bar(xs, ys)
+plt.yticks(range(0, max(ys)+1))
+
+plt.show()
+```
