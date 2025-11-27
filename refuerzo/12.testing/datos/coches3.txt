@@ -1,0 +1,6 @@
+coches, potencia, precio
+Audi A3 35 TFSI, 150, 30000
+BMW 118i, 140, 35000
+Mercedes A 180, 136, 33000
+Mazda 3 2.0 Skyactiv-G, 1220000, 24000
+Nissan Qashqai 1.3 DIG-T, 140, 22000

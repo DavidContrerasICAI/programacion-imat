@@ -1,0 +1,6 @@
+coches, potencia, precio
+Ford Focus 1.0 EcoBoost, 125, 20000
+Honda Civic 1.5 VTEC, 182, 23000
+Hyundai i30 1.6 CRDi, 13z, 19000
+Kia Ceed 1.0 T-GDi, 120, 18000
+Dacia Duster 1.0 TCe, 90, 13000
