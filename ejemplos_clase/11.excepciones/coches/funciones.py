@@ -24,7 +24,7 @@ def leer_coches()->dict:
             fichero.close()
 
         fichero_error.close()
-    except FileNotFoundError as error:
+    except ValueError as error:
         print("No se encontró el fichero:", error)
 
     return diccionario_coches
@@ -53,8 +53,8 @@ def transformar_cv(cv_str:str)->int:
             if cv >= POTENCIA_MINIMA:
                 return cv
             else:
-                raise PotenciaError("Potencia inferior a 100cv")
+                raise PotenciaError(f"Potencia inferior a {POTENCIA_MINIMA}cv")
         except ValueError:
             raise PotenciaError("Potencia no numérica")
     else:
-        raise PotenciaError("Potencia demasiado larga (+4)")
+        raise PotenciaError(f"Potencia demasiado larga (+{LONGITUD_MAX})")
