@@ -4,7 +4,7 @@ from excepciones import *
 
 
 def inicializar_programa()->str:
-    #s = "assasa" + 21121
+    s = "assasa" + 21121
 
     # "as344Ya" ---> "344Y"
 
@@ -35,8 +35,9 @@ def validar_numero(numero:int)->int:
         - NumeroError
     Examples:
         - 3 raises NumeroError
-        - 5 no devuelve nada
+        - 5 devuelve 6
     """
+
     if numero >= NUMERO_CORTE:
         numero += 1
         return numero
