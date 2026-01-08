@@ -8,7 +8,16 @@ Cada alumno deberá elegir entre tres tipos de proyectos:
 - **Juego a elegir por el alumno**: la temática y diseño del juego lo decidirá el propio alumno. Necesitará el visto bueno del profesor.
 - **Desarrollo en Minecraft a elegir por el alumno**: la funcionalidad dentro del juego la decidirá el propio alumno. Necesitará el visto bueno del profesor.
 
-Los proyectos se podrán realizar en parejas.
+Los proyectos son indivudales. Solo se podrán realizar en pareja con el visto bueno del profesor.
+
+## Utilización de Inteligencia Artificial Generativa (GenAI)
+
+Todo el código escrito en este proyecto **deberá ser entendido, poseerá el estilo de programación desarrollado en clase propio del alumno y podrá ser explicado por el alumno ante el profesor**. Dicho de otra forma, no se podrá incluir código simplemente por C&P generado por fuentes externas.
+
+Se podrá utilizar GenAI para el conocimiento y entendimiento de librerías o códigos no vistos en clase (por ejemplo, uso de Pygame).
+
+Cualquier indicio de incumplimiento de esta norma implicará un 0 en la calificación de la práctica.
+
 
 ## Entrega
 
@@ -22,7 +31,7 @@ Los proyectos se podrán realizar en parejas.
 - Todas las funciones deberán estar documentadas (DocString) y tipificadas. 
 - Se entregará un **póster en PDF** en el que se presenten los resultados más importantes del desarrollo. La plantilla se suministra en Moodle. Este póster lo conservará el alumno como resultado de los proyectos que ha ido haciendo en la carrera. 
 
-## Hundir la Flota
+## Proyecto: Hundir la Flota
 
 Existirán dos tableros, uno del usuario con la colocación de sus barcos y otro con la información de los disparos que ha realizado sobre el tablero oponente.
 
@@ -30,7 +39,6 @@ Existirán dos tableros, uno del usuario con la colocación de sus barcos y otro
 
 - Se cuidará la UX (User Experience).
 - No podrá tener errores.
-
 
 ### Funcionalidad obligatoria
 - La partida se realizará entre dos jugadores.
