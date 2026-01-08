@@ -16,7 +16,7 @@ Todo el código escrito en este proyecto **deberá ser entendido, poseerá el es
 
 Se podrá utilizar GenAI para el conocimiento y entendimiento de librerías o códigos no vistos en clase (por ejemplo, uso de Pygame).
 
-Cualquier indicio de incumplimiento de esta norma implicará un 0 en la calificación de la práctica.
+Cualquier indicio de incumplimiento de esta norma implicará un 0 en la calificación del proyecto.
 
 
 ## Entrega
