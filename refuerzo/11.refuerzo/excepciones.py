@@ -1,2 +1,0 @@
-class PotenciaError(Exception):
-    pass

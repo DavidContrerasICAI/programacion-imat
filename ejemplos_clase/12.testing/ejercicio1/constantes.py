@@ -1,1 +1,0 @@
-NUMERO_CORTE = 5

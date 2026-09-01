@@ -1,2 +1,0 @@
-class CoordenadasError(Exception):
-    pass
