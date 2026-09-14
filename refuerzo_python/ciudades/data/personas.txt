@@ -97,4 +97,4 @@ Candela;22;Calle Cervantes;4938;Segovia
 Ricardo;52;Calle Estrada, 27
 Valeria;30;Calle Mayor;1382;Palencia
 José;41;6075;Soria
-Alba;26;Calle Laín Calvo, 71;9943;Burgos
+Alba;8;Calle Laín Calvo, 71;9943;Burgos
