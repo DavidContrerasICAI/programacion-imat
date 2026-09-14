@@ -7,10 +7,7 @@ if __name__ == "__main__":
     fichero = open("data/personas.txt", "r", encoding="UTF-8")
     for linea in fichero:
         linea = linea.strip()
-        try:
-            f.validar_linea_persona(personas_limpias, linea)
-        except ValueError as error:
-            print(error)
+        if not f.validar_linea_persona(personas_limpias, linea):
             contador_error += 1
 
     fichero.close()
