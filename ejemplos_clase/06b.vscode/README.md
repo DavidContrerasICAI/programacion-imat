@@ -44,9 +44,7 @@ Se mejora la condicion del bucle:
 while i < len(s) and not encontrado:
 ```
 
-Ahora el recorrido puede terminar en cuanto se encuentra la letra, evitando comprobar caracteres innecesarios.
-
-**Mejora principal:** introducir una condicion de parada anticipada.
+**Mejora principal:** introducir una condicion de parada anticipada. Ahora el recorrido puede terminar en cuanto se encuentra la letra, evitando comprobar caracteres innecesarios.
 
 ---
 
@@ -79,7 +77,7 @@ Esto hace el codigo mas compacto y muestra que una comparacion ya produce direct
 
 En esta version ya no hace falta utilizar `encontrado`.
 
-El propio indice permite saber que ha ocurrido:
+El propio indice permite saber qué ha ocurrido:
 
 ```python
 while i < len(s) and s[i] != LETRA:
@@ -88,7 +86,7 @@ while i < len(s) and s[i] != LETRA:
 
 Al terminar:
 
-- si `i == len(s)`, se ha llegado al final sin encontrar la letra;
+- si `i == len(s)`, se ha llegado al final sin encontrar la letra ya que la segunda condición del while impidiría incrementar el contador.
 - en caso contrario, el bucle se ha detenido porque encontro `LETRA`.
 
 **Mejora principal:** una solucion mas directa, con menos variables y aprovechando la condicion del propio bucle.
@@ -97,12 +95,12 @@ Al terminar:
 
 ## Resumen del progreso
 
-| Version | Idea principal | Mejora |
-|---|---|---|
-| [`main1.py`](./main1.py) | Booleano + recorrido completo | Primera solucion funcional |
-| [`main2.py`](./main2.py) | Parada anticipada | Evita seguir buscando despues de encontrar la letra |
-| [`main3.py`](./main3.py) | Expresion booleana directa | Simplifica el cuerpo del bucle |
-| [`main4.py`](./main4.py) | El indice indica el resultado | Elimina la variable `encontrado` |
+| Version                   | Idea principal                | Mejora                                              |
+| ------------------------- | ----------------------------- | --------------------------------------------------- |
+| [`main1.py`](./main1.py) | Booleano + recorrido completo | Primera solucion funcional                          |
+| [`main2.py`](./main2.py) | Parada anticipada             | Evita seguir buscando despues de encontrar la letra |
+| [`main3.py`](./main3.py) | Expresion booleana directa    | Simplifica el cuerpo del bucle                      |
+| [`main4.py`](./main4.py) | El indice indica el resultado | Elimina la variable`encontrado`                   |
 
 ## Conceptos aprendidos
 
@@ -117,18 +115,3 @@ A lo largo de estas versiones se practican:
 - valores booleanos;
 - condiciones de parada;
 - simplificacion y mejora progresiva de algoritmos.
-
----
-
-## Proximo paso
-
-Una posible siguiente evolucion seria resolver el mismo problema utilizando herramientas propias de Python, por ejemplo:
-
-```python
-if LETRA in s:
-    print(f"La cadena tiene al menos una {LETRA}")
-else:
-    print(f"La cadena no tiene ninguna {LETRA}")
-```
-
-Sin embargo, las versiones anteriores son utiles para aprender **como funciona internamente una busqueda secuencial** antes de utilizar soluciones mas compactas del lenguaje.
