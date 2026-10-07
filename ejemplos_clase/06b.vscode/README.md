@@ -12,6 +12,16 @@ En los ejemplos se trabaja con:
 s = "Hola esto es una pruebaX"
 LETRA = "X"
 ```
+---
+
+## Resumen del progreso
+
+| Version                   | Idea principal                | Mejora                                              |
+| ------------------------- | ----------------------------- | --------------------------------------------------- |
+| [`main1.py`](./main1.py) | Booleano + recorrido completo | Primera solucion funcional                          |
+| [`main2.py`](./main2.py) | Parada anticipada             | Evita seguir buscando despues de encontrar la letra |
+| [`main3.py`](./main3.py) | Expresion booleana directa    | Simplifica el cuerpo del bucle                      |
+| [`main4.py`](./main4.py) | El indice indica el resultado | Elimina la variable`encontrado`                   |
 
 ---
 
@@ -92,15 +102,6 @@ Al terminar:
 **Mejora principal:** una solucion mas directa, con menos variables y aprovechando la condicion del propio bucle.
 
 ---
-
-## Resumen del progreso
-
-| Version                   | Idea principal                | Mejora                                              |
-| ------------------------- | ----------------------------- | --------------------------------------------------- |
-| [`main1.py`](./main1.py) | Booleano + recorrido completo | Primera solucion funcional                          |
-| [`main2.py`](./main2.py) | Parada anticipada             | Evita seguir buscando despues de encontrar la letra |
-| [`main3.py`](./main3.py) | Expresion booleana directa    | Simplifica el cuerpo del bucle                      |
-| [`main4.py`](./main4.py) | El indice indica el resultado | Elimina la variable`encontrado`                   |
 
 ## Conceptos aprendidos
 
