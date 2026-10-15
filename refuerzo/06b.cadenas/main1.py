@@ -1,5 +1,5 @@
 # Busca si una letra concreta está dentro de una cadena.
-# Recorre la cadena carácter a carácter con un bucle while y una bandera
+# Recorre la cadena carácter a carácter con un bucle while y un flag booleano
 # (encontrada) y muestra por pantalla "SI" o "NO" junto con un mensaje.
 
 letra = "a"
