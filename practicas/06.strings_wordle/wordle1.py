@@ -44,7 +44,7 @@ while intentos < INTENTOS_MAX and palabra != PALABRA_OBJETIVO:
         if indice < len(palabra_agrupada):
             letra = palabra_agrupada[indice]
             # indice hasta 25, indice_adaptado hasta 5 (palabra_objetivo)
-            indice_adaptado = indice - (indice//LETRAS_POR_PALABRA) * LETRAS_POR_PALABRA  
+            indice_adaptado = indice % LETRAS_POR_PALABRA
             if letra == PALABRA_OBJETIVO[indice_adaptado]:
                 """
                 La letra coincide con la misma posición de la palabra objetivo

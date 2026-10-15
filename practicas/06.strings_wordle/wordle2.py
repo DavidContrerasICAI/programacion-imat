@@ -50,7 +50,6 @@ while intentos < INTENTOS_MAX and palabra != PALABRA_OBJETIVO:
         j = (filas_introducidas + 1) * LETRAS
         palabra_introducida = palabra_agrupada[i:j]
 
-   
         indice = 0
         contador_ok = 0
         while indice < len(palabra_introducida):
