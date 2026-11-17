@@ -1,13 +1,5 @@
 import matplotlib.pyplot as plt
 
-def sumar(a:int, b:int) -> int:
-    suma = a + b
-    return suma
-
-suma = sumar(3, 5)
-print(suma)
-
-
 def crear_figuras_por_defecto():
     figuras["pentagono"] = [(1,1), (3,1), (4,2), (2,3), (0,2), (1,1)]
     figuras["triangulo"] = [(2,2), (2,4), (5,5), (2,2)]
@@ -48,6 +40,7 @@ def pintar_figura():
 
 
 def dibujar_todas_figuras():
+    print(a)
     plt.figure()
     for puntos in figuras.values():
         xs = []
@@ -73,8 +66,7 @@ MENU = """
 
 print(MENU)
 
-figuras = dict()
-
+figuras = {}
 
 opcion = int(input("> "))
 while opcion != 9:
@@ -86,8 +78,6 @@ while opcion != 9:
         pintar_figura()
     elif opcion == 4:
         dibujar_todas_figuras()
-    elif opcion == 9:
-        print("Bye")
-    
+        
     print(MENU)
     opcion = int(input("> "))
