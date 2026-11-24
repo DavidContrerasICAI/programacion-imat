@@ -1,0 +1,12 @@
+| Nombre | Edad |
+|---|---:|
+| Luis | 22 años |
+| Ana | 25 años |
+| Carlos | 31 años |
+| Marta | 28 años |
+| Pablo | 19 años |
+| Elena | 34 años |
+| Diego | 27 años |
+| Lucía | 23 años |
+| Javier | 40 años |
+| Sara | 30 años |
