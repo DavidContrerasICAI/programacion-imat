@@ -27,19 +27,20 @@ def escribir(personas:dict)->None:
 
 def leer_pro()->dict:
     personas = {}
-    fichero = open("personas_chat.txt", "r", encoding="utf-8")
-    linea = fichero.readline()
-    linea = fichero.readline()
-    fichero.readline()
-    for linea in fichero:
-        linea = linea.strip()
-        campos = linea.split("|")
-        _, nombre, edad, _ = campos
-        nombre = nombre.strip()
-        edad = edad.strip()
-        edad, _ = edad.split(" ")
-        edad = int(edad.strip())
-        personas[nombre] = edad
-    fichero.close()   
+    #fichero = open("personas_chat.txt", "r", encoding="utf-8")
+    with open("personas_chat.txt", "r", encoding="utf-8") as fichero:
+        linea = fichero.readline()
+        linea = fichero.readline()
+        fichero.readline()
+        for linea in fichero:
+            linea = linea.strip()
+            campos = linea.split("|")
+            _, nombre, edad, _ = campos
+            nombre = nombre.strip()
+            edad = edad.strip()
+            edad, _ = edad.split(" ")
+            edad = int(edad.strip())
+            personas[nombre] = edad
+    #fichero.close()   
 
     return personas
